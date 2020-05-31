@@ -1,14 +1,18 @@
 <template>
-    <div>
-        <h1>Index page</h1>
+    <div class="home">
+        <h1>Index</h1>
     </div>
 </template>
 
 <script>
 export default {
     name: "Home",
-    created() {
-        console.log("using index page");
-    }
 };
 </script>
+
+<style scoped>
+.home {
+    width: 100%;
+    height: 100%;
+}
+</style>
