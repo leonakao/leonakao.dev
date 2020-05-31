@@ -63,7 +63,7 @@ export default {
             navItems: [
                 {icon: "mdi-home", text: "Página Inicial", route: "/home"},
                 {icon: "mdi-account", text: "Sobre mim", route: "/about"},
-                {icon: "mdi-medal", text: "Algumas conquistas", route: "/project"},
+                {icon: "mdi-monitor-cellphone-star", text: "Alguns projetos", route: "/projects"},
             ],
 
             socialItems: [
