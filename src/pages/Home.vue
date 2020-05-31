@@ -1,7 +1,7 @@
 <template>
     <v-content class="home">
         <div class="box-text d-flex">
-            <div class="text">
+            <div data-aos="flip-up" data-aos-duration="1500" data-aos-delay="500" class="text">
                 <p class="display-2 font-weight-medium">
                     Olá, <br>
                     Eu me chamo <span class="primary--text">Leonardo Nakao</span>, <br>
@@ -18,6 +18,11 @@
 <script>
 export default {
     name: "Home",
+    data(){
+        return {
+            show: true
+        };
+    }
 };
 </script>
 
