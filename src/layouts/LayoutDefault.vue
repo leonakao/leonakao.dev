@@ -61,8 +61,8 @@ export default {
         return {
             drawer: undefined,
             navItems: [
-                {icon: "mdi-home", text: "Página Inicial", route: "/home"},
-                {icon: "mdi-account", text: "Sobre mim", route: "/about"},
+                {icon: "mdi-home-outline", text: "Página Inicial", route: "/home"},
+                {icon: "mdi-account-outline", text: "Sobre mim", route: "/about"},
                 {icon: "mdi-monitor-cellphone-star", text: "Alguns projetos", route: "/projects"},
             ],
 
@@ -80,5 +80,10 @@ export default {
 <style>
 body {
     margin: 0 !important;
+}
+
+.v-application {
+background-color: #121212 !important;
+background-image: linear-gradient(to bottom left, #363636, #121212, #000) !important;
 }
 </style>

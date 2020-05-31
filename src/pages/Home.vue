@@ -34,7 +34,7 @@ export default {
 }
 
 .box-text {
-    padding: 15%;
+    padding-left: 5%;
     height: 100%;
 }
 
