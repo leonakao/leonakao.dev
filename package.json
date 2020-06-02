@@ -40,16 +40,29 @@
       "parser": "babel-eslint"
     },
     "rules": {
-      "quotes": ["error","double"],
-      "indent": ["error",4],
-      "semi": ["error","always"],
-      "vue/html-indent": ["error", 4, {
-            "attribute": 1,
-            "baseIndent": 1,
-            "closeBracket": 0,
-            "alignAttributesVertically": true,
-            "ignores": []
-        }]
+      "quotes": [
+        "error",
+        "double"
+      ],
+      "indent": [
+        "error",
+        4
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "vue/html-indent": [
+        "error",
+        4,
+        {
+          "attribute": 1,
+          "baseIndent": 1,
+          "closeBracket": 0,
+          "alignAttributesVertically": true,
+          "ignores": []
+        }
+      ]
     }
   },
   "browserslist": [
