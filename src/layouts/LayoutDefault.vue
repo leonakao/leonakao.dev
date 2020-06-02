@@ -16,7 +16,10 @@
                 nav
                 class="py-0"
             >
-                <v-list-item two-line class="px-0">
+                <v-list-item
+                    two-line
+                    class="px-0"
+                >
                     <v-list-item-avatar>
                         <img src="../assets/images/profile.jpg">
                     </v-list-item-avatar>
@@ -27,9 +30,14 @@
                     </v-list-item-content>
                 </v-list-item>
 
-                <v-divider></v-divider>
+                <v-divider />
 
-                <v-list-item v-for="item in navItems" :key="item.text" :to="item.route" link>
+                <v-list-item
+                    v-for="item in navItems"
+                    :key="item.text"
+                    :to="item.route"
+                    link
+                >
                     <v-list-item-icon>
                         <v-icon>{{ item.icon }}</v-icon>
                     </v-list-item-icon>
@@ -41,7 +49,13 @@
             </v-list>
             <template v-slot:append>
                 <v-list>
-                    <v-list-item v-for="item in socialItems" :key="item.text" target="blank" :href="item.route" link>
+                    <v-list-item
+                        v-for="item in socialItems"
+                        :key="item.text"
+                        target="blank"
+                        :href="item.route"
+                        link
+                    >
                         <v-list-item-icon>
                             <v-icon>{{ item.icon }}</v-icon>
                         </v-list-item-icon>
