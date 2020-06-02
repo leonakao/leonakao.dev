@@ -1,6 +1,5 @@
 <template>
     <v-app class="layout">
-        <router-view />
         <v-navigation-drawer
             v-model="drawer"
             :expand-on-hover="true"
@@ -9,6 +8,8 @@
             :permanent="true"
             fixed
             dark
+            class="hidden-xs-only"
+            app
         >
             <v-list
                 dense
@@ -52,6 +53,7 @@
                 </v-list>
             </template>
         </v-navigation-drawer>
+        <router-view />
     </v-app>
 </template>
 
