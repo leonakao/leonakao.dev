@@ -5,6 +5,7 @@
             :expand-on-hover="true"
             :mini-variant="true"
             :right="true"
+            color="#1B1B1B"
             fixed
             dark
             app
@@ -13,6 +14,7 @@
                 dense
                 nav
                 class="py-0"
+                flat
             >
                 <v-list-item
                     two-line
@@ -35,6 +37,7 @@
                     :key="item.text"
                     :to="item.route"
                     link
+                    color="primary"
                 >
                     <v-list-item-icon>
                         <v-icon>{{ item.icon }}</v-icon>
@@ -100,6 +103,6 @@ body {
 
 .v-application {
 background-color: #121212 !important;
-background-image: linear-gradient(to bottom left, #363636, #121212, #000) !important;
+background-image: linear-gradient(to bottom left, #1B1B1B, #000) !important;
 }
 </style>
