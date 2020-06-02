@@ -9,6 +9,9 @@
                     cols="12"
                     lg="6"
                     xl="6"
+                    data-aos="flip-up"
+                    data-aos-duration="1500"
+                    data-aos-delay="200"
                 >
                     <div class="box px-10">
                         <p class="display-1 font-weight-medium">
@@ -27,6 +30,9 @@
                     xl="6"
                     class="text-center"
                     align-self="center"
+                    data-aos="fade-up"
+                    data-aos-duration="1500"
+                    data-aos-delay="200"
                 >
                     <v-btn
                         x-large
