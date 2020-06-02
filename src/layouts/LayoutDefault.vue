@@ -5,10 +5,8 @@
             :expand-on-hover="true"
             :mini-variant="true"
             :right="true"
-            :permanent="true"
             fixed
             dark
-            class="hidden-xs-only"
             app
         >
             <v-list
@@ -67,7 +65,9 @@
                 </v-list>
             </template>
         </v-navigation-drawer>
-        <router-view />
+        <v-content>
+            <router-view />
+        </v-content>
     </v-app>
 </template>
 
