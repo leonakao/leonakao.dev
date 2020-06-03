@@ -102,7 +102,7 @@ body {
 }
 
 .v-application {
-background-color: #121212 !important;
-background-image: linear-gradient(to bottom left, #1B1B1B, #000) !important;
+    background-color: #121212 !important;
+    background-image: linear-gradient(to bottom left, #1B1B1B, #000) !important;
 }
 </style>
