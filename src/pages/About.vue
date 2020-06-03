@@ -12,6 +12,9 @@
                 lg="6"
                 xl="6"
                 class="text-justify"
+                data-aos="fade"
+                data-aos-duration="1000"
+                data-aos-once="true"
             >
                 <h1 class="primary--text mb-5">
                     Um pouco sobre mim
@@ -24,7 +27,10 @@
                 cols="12"
                 lg="6"
                 xl="6"
-                class="pa-12 d-flex align-center"
+                class="py-12 d-flex align-center"
+                data-aos="fade-in"
+                data-aos-duration="1000"
+                data-aos-once="true"
             >
                 <v-carousel
                     hide-delimiters
