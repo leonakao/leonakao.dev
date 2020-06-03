@@ -12,11 +12,11 @@
                 lg="6"
                 xl="6"
                 data-aos="flip-up"
-                data-aos-duration="1500"
-                data-aos-delay="200"
+                data-aos-duration="1000"
+                class="d-flex align-center"
             >
                 <div class="box px-10">
-                    <p class="display-1 font-weight-medium">
+                    <p class="display-2 font-weight-medium">
                         Olá, <br>
                         Eu me chamo <span class="primary--text">Leonardo Nakao</span>, <br>
                         e sou <span class="primary--text">Full Stack Developer</span>
@@ -33,8 +33,7 @@
                 class="text-center"
                 align-self="center"
                 data-aos="fade-up"
-                data-aos-duration="1500"
-                data-aos-delay="200"
+                data-aos-duration="1000"
             >
                 <v-btn
                     x-large
