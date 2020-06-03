@@ -69,7 +69,13 @@
             </template>
         </v-navigation-drawer>
         <v-content>
-            <router-view />
+            <transition
+                name="slide-up"
+                mode="out-in"
+                appear
+            >
+                <router-view />
+            </transition>
         </v-content>
     </v-app>
 </template>
@@ -98,12 +104,12 @@ export default {
 </script>
 
 <style>
-body {
-    margin: 0 !important;
-}
+    body {
+        margin: 0 !important;
+    }
 
-.v-application {
-    background-color: #121212 !important;
-    background-image: linear-gradient(to bottom left, #1B1B1B, #000) !important;
-}
+    .v-application {
+        background-color: #121212 !important;
+        background-image: linear-gradient(to bottom left, #1B1B1B, #000) !important;
+    }
 </style>
