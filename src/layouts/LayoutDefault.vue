@@ -82,6 +82,7 @@ export default {
             navItems: [
                 {icon: "mdi-home-outline", text: "Página Inicial", route: "/home"},
                 {icon: "mdi-account-outline", text: "Sobre mim", route: "/about"},
+                {icon: "mdi-medal-outline", text: "Conhecimentos", route: "/features"},
                 {icon: "mdi-monitor-cellphone-star", text: "Alguns projetos", route: "/projects"},
             ],
 
