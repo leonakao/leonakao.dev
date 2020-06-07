@@ -51,6 +51,36 @@
                             </div>
                         </v-row>
                     </v-carousel-item>
+                    <v-carousel-item
+                        :src="require('../assets/images/event2.jpg')"
+                        reverse-transition="fade-transition"
+                        transition="fade-transition"
+                    >
+                        <v-row
+                            class="fill-height"
+                            align="end"
+                            justify="center"
+                        >
+                            <div class="event-subtitle py-4 subtitle-1 font-weight-bold">
+                                Técnicas de Invasão Experience (2018)
+                            </div>
+                        </v-row>
+                    </v-carousel-item>
+                    <v-carousel-item
+                        :src="require('../assets/images/event3.jpg')"
+                        reverse-transition="fade-transition"
+                        transition="fade-transition"
+                    >
+                        <v-row
+                            class="fill-height"
+                            align="end"
+                            justify="center"
+                        >
+                            <div class="event-subtitle py-4 subtitle-1 font-weight-bold">
+                                Curso de Robótica Ministrado (2018)
+                            </div>
+                        </v-row>
+                    </v-carousel-item>
                 </v-carousel>
             </v-col>
         </v-row>
