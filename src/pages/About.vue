@@ -1,6 +1,6 @@
 <template>
     <v-container
-        class="pt-12 px-10"
+        class="d-lg-flex d-block align-center"
         fluid
     >
         <v-row
